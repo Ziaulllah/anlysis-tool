@@ -61,10 +61,6 @@ def home_page():
 
 
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # User Define Function For Data Cleaning
 def data_cleaning():
@@ -235,7 +231,7 @@ def data_cleaning():
 
 # Function for Data Visualization
 def data_visualization_section():
-    st.title("This is the Data Visualization section.")
+    st.title("### Welcome to the Data Visualization section!")
 
     uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
     
