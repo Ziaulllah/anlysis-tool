@@ -231,7 +231,7 @@ def data_cleaning():
 
 # Function for Data Visualization
 def data_visualization_section():
-    st.title("### Welcome to the Data Visualization section!")
+    st.title("Welcome to the Data Visualization section!")
 
     uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
     
