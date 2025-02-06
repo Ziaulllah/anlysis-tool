@@ -3,7 +3,5 @@ matplotlib
 pandas
 numpy
 seaborn
-sqlite3
-re
 streamlit-option-menu
 scikit-learn
